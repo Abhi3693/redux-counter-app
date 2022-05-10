@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  margin: 2rem auto;
+  background-color: rgb(205, 248, 245);
+  text-align: center;
+  padding: 5rem 2rem;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading {
+  color: rgb(169, 139, 5);
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5rem;
+}
+.counter {
+  font-weight: 700;
+  color: rgb(3, 71, 126);
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top-btn-holder {
+  display: flex;
+  gap: 5rem;
+  margin: 2rem auto;
+  width: fit-content;
+}
+
+.buttom-btn-holder {
+  gap: 5rem;
+  display: flex;
+  margin: 4rem auto;
+  width: fit-content;
+}
+
+.btn {
+  background-color: rgb(32, 131, 5);
+  padding: 0.9rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(47, 196, 6);
+  }
+}
+.btn-small {
+  background-color: rgb(2, 53, 82);
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(6, 145, 196);
+  }
+}
+h2 {
+  font-size: 1.7rem;
+  color: rgb(2, 94, 94);
+  font-weight: 700;
+}
+
+.step-holder {
+  display: flex;
+  gap: 2rem;
+}
+
+.active {
+  background-color: rgb(3, 148, 231);
+}
